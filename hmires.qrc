@@ -1,0 +1,106 @@
+<RCC>
+    <qresource prefix="/topbar">
+        <file>images/led/led_green.png</file>
+        <file>images/led/led_red.png</file>
+        <file>images/led/led_yellow.png</file>
+        <file>images/topbar/signal0.png</file>
+        <file>images/topbar/signal1.png</file>
+        <file>images/topbar/signal2.png</file>
+        <file>images/topbar/signal3.png</file>
+    </qresource>
+    <qresource prefix="/skin">
+        <file>skin/defaultSkin</file>
+    </qresource>
+    <qresource prefix="/navigate">
+        <file>images/navigate/about.png</file>
+        <file>images/navigate/chiller.png</file>
+        <file>images/navigate/debug.png</file>
+        <file>images/navigate/laser.png</file>
+        <file>images/navigate/log.png</file>
+        <file>images/navigate/network.png</file>
+        <file>images/navigate/setup.png</file>
+        <file>images/navigate/status.png</file>
+        <file>images/navigate/sysinfo.png</file>
+    </qresource>
+    <qresource prefix="/laser">
+        <file>images/laser/mainCtl.png</file>
+        <file>images/laser/mdlCtl.png</file>
+    </qresource>
+    <qresource prefix="/mainctl">
+        <file>images/mainctl/add.png</file>
+        <file>images/mainctl/sub.png</file>
+        <file>images/mainctl/hexagon.png</file>
+        <file>images/mainctl/circle_gray.png</file>
+        <file>images/mainctl/circle_orange.png</file>
+        <file>images/mainctl/RGB_All.png</file>
+        <file>images/mainctl/RGB_Blue.png</file>
+        <file>images/mainctl/RGB_Green.png</file>
+        <file>images/mainctl/RGB_Red.png</file>
+        <file>images/mainctl/WhiteBalance.png</file>
+        <file>images/mainctl/colortemp.png</file>
+        <file>images/mainctl/busy.png</file>
+        <file>images/mainctl/add_gray.png</file>
+        <file>images/mainctl/sub_gray.png</file>
+    </qresource>
+    <qresource prefix="/login">
+        <file>images/login/lock.png</file>
+        <file>images/login/background.png</file>
+    </qresource>
+    <qresource prefix="/about">
+        <file>images/about/logo.png</file>
+    </qresource>
+    <qresource prefix="/log">
+        <file>images/log/next.png</file>
+        <file>images/log/previous.png</file>
+        <file>images/log/Alarm.png</file>
+        <file>images/log/Laser.png</file>
+        <file>images/log/Operate.png</file>
+        <file>images/log/Keyboard.png</file>
+        <file>images/log/Export.png</file>
+        <file>images/log/Search.png</file>
+        <file>images/log/Trash.png</file>
+        <file>images/log/Chiller.png</file>
+    </qresource>
+    <qresource prefix="/load">
+        <file>images/load/background.png</file>
+    </qresource>
+    <qresource prefix="/bottombar">
+        <file>images/bottombar/Logout.png</file>
+        <file>images/bottombar/Reboot.png</file>
+        <file>images/bottombar/Shutdown.png</file>
+        <file>images/bottombar/Cancel.png</file>
+        <file>images/bottombar/Exit.png</file>
+        <file>images/bottombar/Console.png</file>
+    </qresource>
+    <qresource prefix="/chiller">
+        <file>images/chiller/BypassChiller.png</file>
+        <file>images/chiller/ReEnableChiller.png</file>
+    </qresource>
+    <qresource prefix="/common">
+        <file>images/common/pushed_left.png</file>
+        <file>images/common/pushed_right.png</file>
+        <file>images/common/up_left.png</file>
+        <file>images/common/up_right.png</file>
+        <file>images/common/Checked.png</file>
+        <file>images/common/UnChecked.png</file>
+        <file>images/common/add.png</file>
+        <file>images/common/sub.png</file>
+        <file>images/common/arrow.png</file>
+    </qresource>
+    <qresource prefix="/Summary">
+        <file>images/summary/Left.png</file>
+        <file>images/summary/Right.png</file>
+    </qresource>
+    <qresource prefix="/Kbd">
+        <file>images/Keyboard/bottom.png</file>
+        <file>images/Keyboard/close.png</file>
+        <file>images/Keyboard/left.png</file>
+        <file>images/Keyboard/right.png</file>
+        <file>images/Keyboard/top.png</file>
+        <file>images/Keyboard/next.png</file>
+        <file>images/Keyboard/previous.png</file>
+    </qresource>
+    <qresource prefix="/IME">
+        <file>images/hzpy-utf8.txt</file>
+    </qresource>
+</RCC>

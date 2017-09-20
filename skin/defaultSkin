@@ -1,0 +1,1105 @@
+QToolTip {
+    background-color: yellow;
+    border: 2px solid #333333;
+    border-radius: 6px;
+    color: black;
+    font-size:20px;
+}
+QLineEdit{
+        border-radius: 4px;
+        height: 25px;
+        border: 1px solid rgb(100, 100, 100);
+        background: rgb(102,138,115);
+        color:white;
+        font-size:12px;
+}
+QLineEdit:hover{
+        background: rgb(241,141,0);
+}
+
+QMessageBox{
+    background-color: yellow;
+    border: 2px solid #333333;
+    border-radius: 6px;
+    color: black;
+    font-size:20px;
+}
+QToolButton QMessageBox{
+    background-color: red;
+    font-size:20px;
+}
+/**********ZTopBar*************/
+QFrame#topBar {
+        background: rgb(58,64,90);
+}
+QLabel#topBarLabel{
+    color: white;
+}
+QLabel#ZTopBarCinemaNameLabel{
+    color: white;
+    font-size:18px;
+    font-weight:bold;
+}
+QFrame#ZGblErrMsgDia{
+    background: rgb(67,80,86);
+}
+QLabel#ZGblErrMsgDiaLabel{
+    color:white;
+    font-size:20px;
+}
+QToolButton#ZGblErrMsgDiaBtn{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    min-width:30px;
+}
+QToolButton#ZGblErrMsgDiaBtn:hover{
+    background: rgb(241,141,0);
+}
+/**********ZBottomBar*************/
+QFrame#bottomBar {
+        background: rgb(67,80,86);
+}
+QFrame#TextImgFrame{
+    border: 1px solid rgb(111, 156, 207);
+    border-radius: 5px;
+    background: rgb(49,62,70);
+}
+QLabel#textImgLabel{
+    color: white;
+}
+QFrame#TextLineEditFrame{
+    border: 1px solid rgb(111, 156, 207);
+    border-radius: 5px;
+    background: rgb(49,62,70);
+}
+QLabel#TextLineEditFrameLabel{
+    color: white;
+}
+QToolButton#ZBottomBarReturnBtn{
+    background: transparent;
+}
+QFrame#ZShutDwnDiaFrame{
+    background: rgb(67,80,86);
+    border: 4px solid rgb(111, 156, 207);
+    border-radius: 6px;
+}
+QToolButton#ZShutDwnDiaButton{
+    background: transparent;
+    color:white;
+}
+QToolButton#ZShutDwnDiaButton:hover{
+    background: rgb(241,141,0);
+}
+
+/***********ZLoginUI****************/
+QFrame#ZLoginUI{
+    border-image: url(:/login/images/login/background.png);
+}
+QToolButton#ZLoginUIBtn{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    min-width:60px;
+    max-height:30px;
+    font-size:20px;
+}
+QToolButton#ZLoginUIBtn:hover{
+    background: rgb(241,141,0);
+    font-size:30px;
+}
+QLabel#ZLoginUITitle{
+    padding: 6 px;
+    color: white;
+    font-size: 30px;
+}
+QLabel#ZLoginUIPassTips{
+    font-size: 20px;
+    color: white;
+}
+QLineEdit#ZLoginUILineEdit{
+        border-radius: 4px;
+        height: 40px;
+        border: 1px solid rgb(100, 100, 100);
+        background: rgb(72, 72, 73);
+        font-size: 16px;
+}
+QLineEdit#ZLoginUILineEdit:hover{
+        color: rgb(175, 175, 175);
+}
+
+/**********ZNavigateUI*************/
+QFrame#navigateUI{
+        background: rgb(67,80,86);
+}
+QToolButton#navigateUIButton{
+    border: 1px solid rgb(111, 156, 207);
+    color: rgb(178,222,249);
+    padding: 4px;
+    min-width:100px;
+}
+QToolButton#navigateUIButton:hover{
+    background: rgb(241,141,0);
+}
+/**********ZMainUI***************/
+QFrame#mainUI{
+    background: rgb(205,214,223);
+}
+QStackedWidget{
+    background: rgb(205,214,223);
+}
+/**************ZSummaryUI************/
+QFrame#ZCurveUI {
+        background: rgb(67,80,86);
+}
+QLabel#ZSummaryUIGLaserNoLabel{
+    background: rgb(67,80,86);
+    font-size: 30px;
+    color:rgb(255,255,255);
+    padding: 10px;
+}
+QToolButton#ZSummaryUIButton{
+    background: transparent;
+}
+QToolButton#ZSummaryUIButton:hover{
+    background: rgb(241,141,0);
+}
+QFrame#ZLaserRunHoursUI {
+        background: rgb(67,80,86);
+}
+QLabel#ZLaserRunHoursUILabel{
+    color:white;
+}
+/**********ZMainCtlUI***********/
+QFrame#mainCtlUI{
+    background: rgb(205,214,223);
+}
+QToolButton#mainCtlUIBtn{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    min-width:80px;
+}
+QToolButton#mainCtlUIBtn:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#mainCtlBtnColorTemp{
+    background: transparent;
+    border-image: url(:/mainctl/images/mainctl/circle_gray.png);
+    color:white;
+    padding: 2px;
+    width:30px;
+    height:40px;
+}
+QToolButton#mainCtlBtnColorTemp:hover{
+    border-image: url(:/mainctl/images/mainctl/circle_orange.png);
+}
+
+QToolButton#mainCtlUIBtnTuning{
+    background: transparent;
+}
+
+QProgressBar#mainCtlProgressBarAll{
+    border: 1px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    background: rgb(67,80,86);
+}
+QProgressBar#mainCtlProgressBarAll::chunk {
+    background: rgb(245,245,245);
+}
+QProgressBar#mainCtlProgressBarRed{
+    border: 1px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    background: rgb(67,80,86);
+}
+QProgressBar#mainCtlProgressBarRed::chunk {
+    background: rgb(255,113,113);
+}
+QProgressBar#mainCtlProgressBarGreen{
+    border: 1px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    background: rgb(67,80,86);
+}
+QProgressBar#mainCtlProgressBarGreen::chunk {
+    background: rgb(43,213,94);
+}
+QProgressBar#mainCtlProgressBarBlue{
+    border: 1px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    background: rgb(67,80,86);
+}
+QProgressBar#mainCtlProgressBarBlue::chunk {
+    background: rgb(121,121,255);
+    margin:0px;
+}
+/**************ZColorTempTuningDialog*************/
+QFrame#ZColorTempTuningDia{
+    border: 3px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+}
+QLabel#ZColorTempTuningDiaLabel{
+    color:white;
+}
+QToolButton#ZColorTempTuningDiaButton{
+    background: transparent;
+}
+QToolButton#ZColorTempTuningDiaOkayCancel{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZColorTempTuningDiaOkayCancel:hover{
+    background: rgb(241,141,0);
+}
+/***********ZMdlCtlUI****************/
+QFrame#mdlCtlUI{
+    background: rgb(205,214,223);
+}
+
+QToolButton#ZMdlCtlUIButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    min-width:80px;
+    font-size:14px;
+}
+QToolButton#ZMdlCtlUIButton:hover{
+    background: rgb(241,141,0);
+    font-size:18px;
+}
+
+QToolButton#MdlCtlUIBtnTuning{
+    background: transparent;
+}
+
+QProgressBar#MdlCtlProgressBarAll{
+    border: 1px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    background: rgb(67,80,86);
+}
+QProgressBar#MdlCtlProgressBarAll::chunk {
+    background: rgb(245,245,245);
+}
+QProgressBar#MdlCtlProgressBarRed{
+    border: 1px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    background: rgb(67,80,86);
+}
+QProgressBar#MdlCtlProgressBarRed::chunk {
+    background: rgb(255,113,113);
+}
+QProgressBar#MdlCtlProgressBarGreen{
+    border: 1px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    background: rgb(67,80,86);
+}
+QProgressBar#MdlCtlProgressBarGreen::chunk {
+    background: rgb(43,213,94);
+}
+QProgressBar#MdlCtlProgressBarBlue{
+    border: 1px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    background: rgb(67,80,86);
+}
+QProgressBar#MdlCtlProgressBarBlue::chunk {
+    background: rgb(121,121,255);
+    margin:0px;
+}
+
+
+QFrame#ZMdlFaultDialog{
+    background: rgb(58,64,90);
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+}
+QLabel#ZMdlFaultDialogLabel{
+    background: transparent;
+    color:white;
+    font-size:20px;
+    padding: 4px;
+}
+QToolButton#ZMdlFaultDialogButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    min-width:40px;
+}
+QToolButton#ZMdlFaultDialogButton:hover{
+    background: rgb(241,141,0);
+}
+
+
+QFrame#ZMdlColorTempSetDia{
+    background: rgb(58,64,90);
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    padding: 6px;
+}
+QLabel#ZMdlColorTempSetDiaLabel{
+    background: transparent;
+    color:white;
+    font-size:20px;
+    padding: 4px;
+}
+QLabel#ZMdlColorTempSetDiaLabelTips{
+    background: transparent;
+    color:white;
+    font-size:16px;
+    padding: 4px;
+}
+QToolButton#ZMdlColorTempSetDiaButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    min-width:40px;
+}
+QToolButton#ZMdlColorTempSetDiaButton:hover{
+    background: rgb(241,141,0);
+}
+/***********ZChillerUI***********/
+QToolButton#ZChillerUIBtn{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    min-width:80px;
+}
+QToolButton#ZChillerUIBtn:hover{
+    background: rgb(241,141,0);
+}
+
+QFrame#ZVSlider{
+    background: rgb(67,80,86);
+    color:white;
+}
+QLabel#ZVSliderValLabel{
+    font-size:16px;
+    color:white;
+}
+QLabel#ZVSliderTipsLabel{
+    color:white;
+}
+QSlider#ZVSliderQSlider{
+    background-color:rgb(49,62,70);
+    min-width:6px;
+    max-width:6px;
+    border:6px solid red;
+}
+QSlider#ZVSliderQSlider::groove:vertical{
+    background-color: rgb(10,176,219);
+    width:4px;
+}
+QSlider#ZVSliderQSlider::handle:vertical{
+    background-color: blue;
+    width:8px;
+    height:4px;
+}
+/*************ZSysSetupUI***********/
+QFrame#ZLabelFocusLineEditCheckBox{
+    background: rgb(67,80,86);
+}
+QLabel#ZLabelFocusLineEditCheckBox_Label{
+    color:white;
+}
+QToolButton#ZSysSetupUIButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    min-width:80px;
+    height:26px;
+}
+QToolButton#ZSysSetupUIButton:hover{
+    background: rgb(241,141,0);
+}
+
+/*************ZChangePasswordDialog**********/
+QFrame#ZChangePasswordDia{
+    border: 3px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+}
+QLabel#ZChangePasswordDiaLabel{
+    color:white;
+}
+QToolButton#ZChangePasswordDiaOkayCancel{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZChangePasswordDiaOkayCancel:hover{
+    background: rgb(241,141,0);
+}
+/*********ZRestoreFactoryDialog*************/
+QFrame#ZRestorFactoryDia{
+    border: 3px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+}
+QLabel#ZRestorFactoryDiaLabel{
+    color:white;
+}
+QToolButton#ZRestorFactoryDiaToolButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZRestorFactoryDiaToolButton:hover{
+    background: rgb(241,141,0);
+}
+
+/*************ZDigKeyboard************/
+QFrame#ZDigKbd{
+    border: 3px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+}
+QLabel#ZDigKbTitle{
+    color:white;
+    font-size:26px;
+}
+QToolButton#ZDigKbButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    min-width:40px;
+    min-height:20px;
+}
+QToolButton#ZDigKbButton:hover{
+    background: rgb(241,141,0);
+}
+/*******ZFullKeyboard*************/
+QFrame#ZFullKbd{
+    border: 3px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+}
+QLabel#ZFullKbd_Title{
+    color:white;
+    font-size:26px;
+}
+QLineEdit#ZFullKbdLineEdit{
+    min-width:80px;
+}
+QToolButton#ZFullKbdOkayCancel{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZFullKbdOkayCancel:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#ZFullKbdChSelect{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(50,12,109);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZFullKbdChSelect:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#ZFullKbdTurnPage{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:30px;
+    height:20px;
+}
+QToolButton#ZFullKbdTurnPage:hover{
+    background: rgb(241,141,0);
+}
+QToolButton#ZFullKbdA2Z{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:20px;
+    height:20px;
+}
+QToolButton#ZFullKbdA2Z:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#ZFullKbdEnCh{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:30px;
+    height:20px;
+}
+QToolButton#ZFullKbdEnCh:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#ZFullKbdCtrl{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZFullKbdCtrl:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#ZFullKbdShift{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:50px;
+    height:20px;
+}
+QToolButton#ZFullKbdShift:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#ZFullKbdCapsLock{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:80px;
+    height:20px;
+}
+QToolButton#ZFullKbdCapsLock:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#ZFullKbdSpace{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:200px;
+    height:20px;
+}
+QToolButton#ZFullKbdSpace:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#ZFullKbd123{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:30px;
+    height:20px;
+}
+QToolButton#ZFullKbd123:hover{
+    background: rgb(241,141,0);
+}
+
+
+QToolButton#ZFullKbdSymbol{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZFullKbdSymbol:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#ZFullKbdEnter{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:50px;
+    height:20px;
+}
+QToolButton#ZFullKbdEnter:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#ZFullKbdBackspace{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:30px;
+    height:20px;
+}
+QToolButton#ZFullKbdBackspace:hover{
+    background: rgb(241,141,0);
+}
+
+/*********ZDateTimeSetDialog***********/
+QFrame#ZDateTimeSetDia{
+    background: rgb(67,80,86);
+    border: 4px solid rgb(88,88,88);
+    border-radius: 6px;
+}
+QLabel#ZDateTimeSetDiaTitle{
+    color:white;
+    font-size:20px;
+}
+QToolButton#ZDateTimeSetDiaAddSubButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+}
+QToolButton#ZDateTimeSetDiaAddSubButton:hover{
+    background: rgb(241,141,0);
+}
+QToolButton#ZDateTimeSetDiaOkayCancel{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZDateTimeSetDiaOkayCancel:hover{
+    background: rgb(241,141,0);
+}
+/************ZLogUI*************/
+QFrame#ZTextComboBox{
+    background: rgb(67,80,86);
+}
+QLabel#ZTextComboBoxLabel{
+    color:white;
+}
+QComboBox#ZTextComboBoxComboBox{
+}
+QFrame#ZDateTimeChooser{
+    background: rgb(67,80,86);
+}
+QLabel#ZDateTimeChooserLabel{
+    color:white;
+}
+QDialog#ZLogFilterDialog{
+    background: rgb(255,237,151);
+    border:2px solid yellow;
+}
+QLabel#ZLogFilterDialogTitleLabel{
+    background-color: rgb(255,211,6);
+}
+QProgressBar#LogStorageProgressBar{
+    border: 1px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    background: rgb(67,80,86);
+}
+QProgressBar#LogStorageProgressBar::chunk {
+    background: rgb(241,141,0);
+}
+QTreeWidget{
+    background: rgb(67,80,86);
+    font-size:14px;
+    color: white;
+}
+QTreeWidget::item{
+    margin:6 px;
+    background: rgb(67,80,86);
+    background-clip: margin;
+}
+QTreeView::item:selected{
+    background: rgb(205,214,223);
+}
+QToolButton#PreviousButton{
+    border:none;
+    background: transparent;
+}
+QToolButton#NextButton{
+    border:none;
+    background: transparent;
+}
+/*********ZNetworkUI*************/
+QToolButton#ZNetworkUIButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZNetworkUIButton:hover{
+    background: rgb(241,141,0);
+}
+
+QToolButton#ZWaitingDialogButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZWaitingDialogButton:hover{
+    background: rgb(241,141,0);
+}
+
+QLabel#ZWaitingDialogLabel{
+    background-color: yellow;
+    color:black;
+    font-size:30px;
+    padding: 10px;
+}
+/*********ZAboutUI***************/
+QFrame#aboutUI{
+    background: rgb(205,214,223);
+}
+QLabel#ZAboutUILabel{
+    padding:6px;
+    background: rgb(58,64,90);
+    color:white;
+}
+QFrame#aboutUI QToolButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    min-width:80px;
+    font-size:16px;
+}
+QFrame#aboutUI QToolButton:hover{
+    background: rgb(241,141,0);
+    font-size:20px;
+}
+/***********************/
+QFrame#ZWarningTipsDialog{
+    background: rgb(67,80,86);
+    border: 4px solid rgb(222,111,0);
+    border-radius: 6px;
+}
+QLabel#ZWarningTipsDialogTitle{
+    color:white;
+    font-size:20px;
+}
+QLabel#ZWarningTipsDialogTipsMsg{
+    color:rgb(222,111,0);
+    font-size:20px;
+}
+QToolButton#ZWarningTipsDialogOkay{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZWarningTipsDialogOkay:hover{
+    background: rgb(241,141,0);
+}
+
+/******************************/
+
+
+QFrame#ZUpdateWizardDialog{
+    background: rgb(67,80,86);
+    border: 4px solid rgb(88,88,88);
+    border-radius: 6px;
+}
+QLabel#ZUpdateWizardDialogLabelTitle{
+    color:white;
+    font-size:25px;
+}
+QLabel#ZUpdateWizardDialogLabel{
+    color:white;
+    font-size:20px;
+}
+QLabel#ZUpdateWizardDialogLabelWarning{
+    color:red;
+    font-size:18px;
+}
+QLabel#ZUpdateWizardDialogLabelProgress{
+    color:rgb(255,165,0);
+    font-size:16px;
+}
+QToolButton#ZUpdateWizardDialogOkayCancel{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZUpdateWizardDialogOkayCancel:hover{
+    background: rgb(241,141,0);
+}
+QFrame#ZUDiskSelectDia{
+    background: rgb(67,80,86);
+    border: 4px solid rgb(88,88,88);
+    border-radius: 6px;
+}
+QLabel#ZUDiskSelectDiaLabel{
+    color:white;
+    font-size:20px;
+}
+QListWidget#ZUDiskSelectDiaListWidget{
+    border: 4px solid rgb(88,88,88);
+}
+QListWidget::item#ZUDiskSelectDiaListWidget{
+     color:black;
+     padding:2px;
+     margin:0px;
+}
+/************ZDbgTestUI************/
+QFrame#ZCheckBoxFrame{
+    background: rgb(67,80,86);
+    color:white;
+}
+QFrame#ZSpinBoxFrame{
+    background: rgb(67,80,86);
+}
+QLabel#ZSpinBoxLabel{
+    color:white;
+}
+QToolButton#ZSpinBoxDecButton{
+    background: transparent;
+    border-image:url(:/common/images/common/up_left.png);
+}
+QToolButton#ZSpinBoxDecButton:hover{
+    border-image:url(:/common/images/common/pushed_left.png);
+}
+QToolButton#ZSpinBoxIncButton{
+    background: transparent;
+    border-image:url(:/common/images/common/up_right.png);
+}
+QToolButton#ZSpinBoxIncButton:hover{
+    border-image:url(:/common/images/common/pushed_right.png);
+}
+
+/***********ZPrevisionSetDialog**********/
+QFrame#ZPwrPrecisionSetDialog_Frame{
+    border: 3px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+}
+QLabel#ZPwrPrecisionSetDialog_Title{
+    background: rgb(67,80,86);
+    color:white;
+    font-size:20px;
+}
+QLineEdit#ZPwrPrecisionSetDialog_LineEdit{
+
+}
+
+QToolButton#ZPwrPrecisionSetDialog_ToolButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZPwrPrecisionSetDialog_ToolButton:hover{
+    background: rgb(241,141,0);
+}
+
+/***********************************/
+QFrame#ZChillerSetDialog_Frame{
+    border: 3px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+}
+QLabel#ZChillerSetDialog_Title{
+    background: rgb(67,80,86);
+    color:white;
+    font-size:20px;
+}
+QLineEdit#ZChillerSetDialog_LineEdit{
+
+}
+
+QToolButton#ZChillerSetDialog_ToolButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZChillerSetDialog_ToolButton:hover{
+    background: rgb(241,141,0);
+}
+
+/*******************************/
+QFrame#ZChillerSetEnterFlowDialog_Frame{
+    border: 3px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+}
+QLabel#ZChillerSetEnterFlowDialog_Title{
+    background: rgb(67,80,86);
+    color:white;
+    font-size:20px;
+}
+QLineEdit#ZChillerSetEnterFlowDialog_LineEdit{
+
+}
+
+QToolButton#ZChillerSetEnterFlowDialog_ToolButton{
+    border: 2px solid rgb(111, 156, 207);
+    border-radius: 6px;
+    background: rgb(67,80,86);
+    color:white;
+    padding: 4px;
+    width:40px;
+    height:20px;
+}
+QToolButton#ZChillerSetEnterFlowDialog_ToolButton:hover{
+    background: rgb(241,141,0);
+}
+
+
+
+/*spinbox 抬起样式*/
+QTimeEdit::up-button,QDoubleSpinBox::up-button,QSpinBox::up-button {subcontrol-origin:border;
+    subcontrol-position:right;
+    image: url(:/common/images/common/up_right.png);
+    width: 24px;
+    height: 24px;
+}
+QTimeEdit::down-button,QDoubleSpinBox::down-button,QSpinBox::down-button {subcontrol-origin:border;
+    subcontrol-position:left;
+    border-image: url(:/common/images/common/up_left.png);
+    width: 24px;
+    height: 24px;
+}
+/*按钮按下样式*/
+QTimeEdit::up-button:pressed,QDoubleSpinBox::up-button:pressed,QSpinBox::up-button:pressed{
+    subcontrol-origin:border;
+    subcontrol-position:right;
+    image: url(:/common/images/common/pushed_right.png);
+    width: 24px;
+    height: 24px;
+}
+QTimeEdit::down-button:pressed,QDoubleSpinBox::down-button:pressed,QSpinBox::down-button:pressed,QSpinBox::down-button:pressed{
+    subcontrol-position:left;
+    image: url(:/common/images/common/pushed_left.png);
+    width: 24px;
+    height: 24px;
+}
+/*未选中*/
+QCheckBox{
+    color:white;
+}
+QCheckBox::indicator::unchecked {
+    image: url(:/common/images/common/UnChecked.png);
+    width: 24px;
+    height: 24px;
+}
+/*选中*/
+QCheckBox::indicator::checked {
+    image: url(:/common/images/common/Checked.png);
+    width: 24px;
+    height: 24px;
+}
+
+QTabWidget::pane { /* The tab widget frame */
+    border-top: 2px solid #C2C7CB;
+}
+
+/* Style the tab using the tab sub-control. Note that
+    it reads QTabBar _not_ QTabWidget */
+QTabBar::tab {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+    border: 2px solid #C4C4C3;
+    border-bottom-color: #C2C7CB; /* same as the pane color */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width: 8ex;
+    padding: 2px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #fafafa, stop: 0.4 #f4f4f4,
+                                stop: 0.5 #e7e7e7, stop: 1.0 #fafafa);
+}
+
+QTabBar::tab:selected {
+    border-color: #9B9B9B;
+    border-bottom-color: #C2C7CB; /* same as pane color */
+}
+
+QTabBar::tab:!selected {
+    margin-top: 2px; /* make non-selected tabs look smaller */
+}
